@@ -1,0 +1,153 @@
+/*** CSS for main plugin wrapper ***/
+
+DIV#CTSA_NewRequest-mainDiv {
+	padding: 0px;
+}
+
+
+
+/*** CSS for tab background ***/
+
+DIV#CTSA_NewRequest-TABS DIV.yui-content {
+	background: #FFF;
+}
+DIV#CTSA_NewRequest-TABS DIV.CTSA_NewRequest-MainContent {
+    background:#FFF;
+    border:solid #63758C;
+    border-width:1px 0;
+    overflow:auto;
+    height:100%;
+}
+DIV#CTSA_NewRequest-TABS DIV.CTSA_NewRequest-MainContentPad {
+    padding:10px 10px;
+}
+
+
+
+/*** CSS for the Specify Data tab ***/
+
+DIV#CTSA_NewRequest-mainDiv DIV.qmidlbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV.qmtrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+DIV#CTSA_NewRequest-mainDiv DIV.qxmllbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV.qxmltrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+DIV#CTSA_NewRequest-mainDiv DIV.droptrgtlbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV.droptrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+
+
+/*** CSS for the View Results tab ***/
+
+DIV#CTSA_NewRequest-TABS DIV.results-directions {
+	padding: 10px;
+	text-align:left;
+}
+DIV#CTSA_NewRequest-TABS DIV.results-text {
+	margin:10px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX TABLE {
+	margin:0 10px 10px 10px;
+	border-collapse:collapse;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX TABLE TH {
+	width:150px;
+	border:solid 1px #63758C;
+	background-color:#CEDBEF;
+	padding:5px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX TABLE TD {
+	width:300px;
+	overflow:auto;
+	border:solid 1px #63758C;
+	background-color:#DEEBEF;
+	padding:5px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX .sdxOriginalXML {
+	padding:0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX .originalXML {
+	height:150px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX .sdxResultsXML {
+	padding:0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX .resultsXML {
+	height:150px;
+	overflow:scroll;
+	padding:0px;
+	margin:0px;
+}
+DIV#CTSA_NewRequest-mainDiv DIV#CTSA_NewRequest-InfoSDX TABLE TD DIV PRE {
+	margin:0px;
+	width:300px;
+	height:140px;
+	display:block;
+	overflow:scroll;
+	padding:5px;
+}
+
+
+
+/*** CSS for the Plugin Help tab ***/
+
+DIV#CTSA_NewRequest-TABS H1 {
+	margin:0 0 10px 0;
+	font-size:16px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#CTSA_NewRequest-TABS H2 {
+	margin:10px 0 10px 0;
+	font-size:13px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#CTSA_NewRequest-TABS HR {
+	margin:0;
+}

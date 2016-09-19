@@ -1,0 +1,11 @@
+DIV#CTSA_CurrentRequests-mainDiv {
+	padding: 8px;
+	text-align:left;
+}
+
+DIV#CTSA_CurrentRequests-mainDiv DIV.jspDiv{
+	padding: 50px;
+	background: #DDF;
+	text-align:center;
+	border: 1px solid #000000
+}

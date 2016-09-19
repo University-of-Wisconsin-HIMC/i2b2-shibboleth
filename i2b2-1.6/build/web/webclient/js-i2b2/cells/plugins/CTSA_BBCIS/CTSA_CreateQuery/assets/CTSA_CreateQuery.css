@@ -1,0 +1,9 @@
+/*** CSS for main plugin wrapper ***/
+
+/** .yui-skin-sam .yui-dt-liner { white-space:nowrap; }  **/
+/** .yui-skin-sam .yui-dt-body { cursor:pointer; } **/
+
+DIV#CTSA_CreateQuery-mainDiv {
+	padding: 8px;
+	text-align:left;
+}

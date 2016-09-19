@@ -1,0 +1,153 @@
+/*** CSS for main plugin wrapper ***/
+
+DIV#CTSA_NumberOfSamples-mainDiv {
+	padding: 0px;
+}
+
+
+
+/*** CSS for tab background ***/
+
+DIV#CTSA_NumberOfSamples-TABS DIV.yui-content {
+	background: #FFF;
+}
+DIV#CTSA_NumberOfSamples-TABS DIV.CTSA_NumberOfSamples-MainContent {
+    background:#FFF;
+    border:solid #63758C;
+    border-width:1px 0;
+    overflow:auto;
+    height:100%;
+}
+DIV#CTSA_NumberOfSamples-TABS DIV.CTSA_NumberOfSamples-MainContentPad {
+    padding:10px 10px;
+}
+
+
+
+/*** CSS for the Specify Data tab ***/
+
+DIV#CTSA_NumberOfSamples-mainDiv DIV.qmidlbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV.qmtrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+DIV#CTSA_NumberOfSamples-mainDiv DIV.qxmllbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV.qxmltrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+DIV#CTSA_NumberOfSamples-mainDiv DIV.droptrgtlbl {
+	padding: 6px 0px;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV.droptrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 15px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;
+}
+
+
+
+/*** CSS for the View Results tab ***/
+
+DIV#CTSA_NumberOfSamples-TABS DIV.results-directions {
+	padding: 10px;
+	text-align:left;
+}
+DIV#CTSA_NumberOfSamples-TABS DIV.results-text {
+	margin:10px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX TABLE {
+	margin:0 10px 10px 10px;
+	border-collapse:collapse;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX TABLE TH {
+	width:150px;
+	border:solid 1px #63758C;
+	background-color:#CEDBEF;
+	padding:5px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX TABLE TD {
+	width:300px;
+	overflow:auto;
+	border:solid 1px #63758C;
+	background-color:#DEEBEF;
+	padding:5px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX .sdxOriginalXML {
+	padding:0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX .originalXML {
+	height:150px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX .sdxResultsXML {
+	padding:0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX .resultsXML {
+	height:150px;
+	overflow:scroll;
+	padding:0px;
+	margin:0px;
+}
+DIV#CTSA_NumberOfSamples-mainDiv DIV#CTSA_NumberOfSamples-InfoSDX TABLE TD DIV PRE {
+	margin:0px;
+	width:300px;
+	height:140px;
+	display:block;
+	overflow:scroll;
+	padding:5px;
+}
+
+
+
+/*** CSS for the Plugin Help tab ***/
+
+DIV#CTSA_NumberOfSamples-TABS H1 {
+	margin:0 0 10px 0;
+	font-size:16px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#CTSA_NumberOfSamples-TABS H2 {
+	margin:10px 0 10px 0;
+	font-size:13px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#CTSA_NumberOfSamples-TABS HR {
+	margin:0;
+}
